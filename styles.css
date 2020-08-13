@@ -1,0 +1,165 @@
+* {
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+body {
+  text-align: center;
+  background-color: #fff;
+}
+
+nav {
+  font-family: 'Roboto', sans-serif;
+  padding: 1.2rem 0;
+  box-shadow: rgba(0, 0, 0, 0.3) 0 1px 5px 0;
+}
+
+nav h1 {
+  font-size: 1.3rem;
+  color: #632652;
+}
+
+.game-container{
+  padding: 1rem;
+  padding-bottom: 20rem;
+}
+
+.game-img {
+  width: 15rem;
+  margin-top: 3rem;
+}
+
+.greeting {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 1.2rem;
+  color: #632652;
+  margin: 0 auto;
+  margin-top: 3rem;
+  width: 20rem;
+  line-height: 2rem;
+}
+
+.level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: .8rem;
+  color: #596e79;
+  margin-top: 1rem;
+}
+
+.btn-container {
+  display: flex;
+  align-items: center;
+  width: 20rem;
+  margin: auto;
+  margin-top: 2rem;
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 8rem;
+  width: 8rem;
+  border: none;
+  border-radius: 20%;
+  box-shadow: rgba(0, 0, 0, 0.3) 0 8px 8px 0;
+}
+
+.game-over {
+  background-color: #e8505b;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: #C00300;
+}
+
+.green {
+  background-color: #038D35;
+}
+
+.blue {
+  background-color: #0B94F7;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+
+.about-container {
+  margin: 10rem auto;
+  font-family: 'Roboto', sans-serif;
+  color: #596e79;
+}
+
+.about-container h1 {
+  margin-bottom: 1rem;
+}
+
+.about-container p {
+  margin-bottom: .5rem;
+  font-size: 1rem;
+  line-height: 2rem;
+  padding: .6rem;
+  text-align: justify;
+}
+
+@media screen and (min-width: 700px) {
+  nav {
+    padding: 1.5rem 0;
+  }
+
+  nav h1 {
+    font-size: 1.6rem;
+  }
+
+  .game-img {
+    width: 20rem;
+    margin-top: 4rem;
+  }
+
+  .greeting {
+    font-size: 1.3rem;
+    width: 20rem;
+    line-height: 2.2rem;
+  }
+
+  .level-title {
+    font-size: 1rem;
+  }
+
+  .btn-container {
+    width: 35rem;
+    margin-top: 3rem;
+  }
+
+  .btn {
+    height: 12rem;
+    width: 12rem;
+  }
+
+  .about-container p {
+    margin-bottom: 0;
+    font-size: 1.1rem;
+    width: 40rem;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .about-container p {
+    width: 52rem;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .game-container {
+    margin: 0 auto;
+    max-width: 1440px;
+  }
+}
