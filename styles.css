@@ -46,9 +46,15 @@ nav h1 {
   color: #596e79;
   margin-top: 1rem;
   padding: 1rem;
-  border-radius: 50px;
+  border-radius: 60px;
   box-shadow: rgba(0, 0, 0, 0.2) 0 2px 8px 3px;
   line-height: 1.5rem;
+  cursor: pointer;
+  transition: all 0.3s ease-in 0s;
+}
+
+.level-title:hover {
+  box-shadow: rgba(99, 38, 82, 0.4) 0 2px 8px 3px;
 }
 
 .btn-container {

@@ -8,6 +8,10 @@ var started = false;
 var level = 0;
 
 $(".level-title").click(function() {
+  $(".level-title").addClass("pressed");
+  setTimeout(() => {
+    $(".level-title").removeClass("pressed");
+  }, 100);
   if (!started) {
     $("#level-title").text("Level " + level);
     nextSequence();
